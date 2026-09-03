@@ -437,6 +437,52 @@ h6 {
   }
 }
 
+/* .map-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+/* .company-map-label {
+  font-size: 5px;
+  max-width: 350px;
+  padding: 5px 10px !important;
+}
+
+.company-map-label strong {
+  font-size: 10px;
+}
+
+.company-map-label h6 {
+  font-size: 15px;
+  margin-top: 2px;
+}
+
+.company-map-label i {
+  font-size: 13px;
+} */
+
+.company-map-label {
+    position: absolute;
+    top: 80px;       /* adjust vertically */
+    left: 700px;      /* adjust horizontally */
+    transform: translateX(-50%);
+    
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    
+    padding: 6px 10px;
+    z-index: 10;
+    
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+.company-map-label strong {
+    font-size: 10px;
+}
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
